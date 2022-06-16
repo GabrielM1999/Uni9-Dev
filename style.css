@@ -1,0 +1,85 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+
+position: relative;
+width: 1440px;
+height: 949px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: #02006B;
+}
+
+#menu-h li{
+    display: inline;
+    
+}   
+
+#menu-h li a{
+    color: #FFFFFF;
+    padding: 27px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .5s;
+    
+}
+
+#menu-h li a:hover{
+    background-color: #bd1f1f;
+
+}
+
+
+
+.main {
+    position: absolute;
+    width: 1440px;
+    height: 1000px;
+    left: 0px;
+    top: 70px;
+    
+   background: url(nba.png);
+    }
+
+.main h1{
+    /* Define a Posição do texto abaixo do logo */
+
+box-sizing: border-box; /*Incremento de pixel na minha DIV*/
+
+width: 1442px;
+height: 80px;
+left: 200px;
+top: 0px;
+
+background: #02006B;
+border: 0px solid #FFFFFF;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+position: absolute;
+left: 0px;
+right: 100px;
+top: 800px;
+bottom: 500px;
+
+background: #d31616;
+background-size: 250px;
+
+
+}
+
+
+
+
